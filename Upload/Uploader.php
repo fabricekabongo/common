@@ -54,7 +54,7 @@ class Uploader
             }
             $nom_unique = sha1(uniqid($prefix, true));
 
-        }while(file_exists($destination.$nom_unique.$extension));
+        }while(file_exists($destination.$nom_unique.".".$extension));
         return $nom_unique.".".$extension;
     }
      /**
