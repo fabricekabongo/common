@@ -3,6 +3,7 @@
     "type": "library",
     "description": "Ensemble des classes que j'utilise souvent",
     "keywords": [],
+    "license": "MIT",
     "authors": [
         {
             "name": "Fabrice Kabongo",
